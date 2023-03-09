@@ -3,12 +3,12 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: Hexo
-subtitle: ""
-description: ""
+title: Kingzyh
+subtitle: "Kingzyh"
+description: "Kingzyh007的个人博客"
 keywords:
-author: John Doe
-language: en
+author: Kingzyh
+language: zh-CN
 timezone: ""
 
 # URL
@@ -27,7 +27,7 @@ tag_dir: tags
 archive_dir: archives
 category_dir: categories
 code_dir: downloads/code
-i18n_dir: :languages
+i18n_dir: :lang
 skip_render:
 
 # Writing
@@ -98,6 +98,12 @@ ignore:
 ## Plugins: https://hexo.io/plugins/
 ## Themes: https://hexo.io/themes/
 theme: butterfly
+
+search:
+  path: search.xml
+  field: post
+  content: true
+  template: ./search.xml
 
 # Deployment
 ## Docs: https://hexo.io/docs/one-command-deployment
